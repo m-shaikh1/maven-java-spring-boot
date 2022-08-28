@@ -51,7 +51,7 @@ pipeline {
             }
             post{
                 success{
-                    archiveArtifacts artifacts: './target/Maven-java-spring-boot-0.0.1-SNAPSHOT.jar', followSymlinks: false
+                    archiveArtifacts artifacts: 'target/Maven-java-spring-boot-0.0.1-SNAPSHOT.jar', followSymlinks: false
                 }
             }
         }
