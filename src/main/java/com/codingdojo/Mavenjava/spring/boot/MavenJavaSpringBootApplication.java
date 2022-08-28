@@ -8,7 +8,7 @@ public class MavenJavaSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MavenJavaSpringBootApplication.class, args);
-		System.out.ln("Hellow World from Mohammed Shaikh!");
+		System.out.println("Hellow World from Mohammed Shaikh!");
 	}
 
 }
